@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  /* column-count: 8; */
+  column-count: 8;
+  width: 27%;
+  margin: auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.chessBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  border: 1px solid;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.chessBox:hover {
+  border: 1px solid green;
+}
+
+.row {
+  background: black;
+}
